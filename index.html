@@ -1,51 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aung Nyi Thant</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <script>
-        window.location.replace("./introPage.html")
-    </script>
-</head>
-<body>
-    <div class="Main">
-        <div class="ProfileCard">
-            <div class="Profile_picture"></div>
-            <h2 class="Name">Aung Nyi Thant</h2>
-            <h3 class="TypeOfDeveloper">Web Developer</h3>
-            <div class="languages">
-                <div class="python"></div>
-                <div class="html"></div>
-                <div class="css"></div>
-                <div class="Js"></div>
-                <div class="NodeJs"></div>
-                <div class="ReactJs"></div>
-            </div>
-            <div class="SocialMedia">
-                <div class="FaceBookDiv">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="https://github.com/Aung-Nyi-Thant" class="FaceBook">Facebook</a>
-                </div>
-                <div class="gitHubDiv">
-                    <a href="#" class="fa fa-github"></a>
-                    <a href="https://github.com/Aung-Nyi-Thant" class="FaceBook">Github</a>
-                </div>
-            </div>
-            <div class="gamil_group">
-            <a class="as">@</a>
-            <a class="gmail">thantaungnyi@gmail.com</a>
-            </div>
-            <div>
-                <a class="Location">🌎 Mandalay, Myanmar</a>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="./introPageStyle.css">
+<script>
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    sleep(5900).then(()=>{
+        window.location.replace("./profilePage.html")
+    })
+</script>
+<div class="content">
+  <div class="content__container">
+    <p class="content__container__text">
+      Hello
+    </p>
+    
+    <ul class="content__container__list">
+      <li class="content__container__list__item">I  am</li>
+      <li class="content__container__list__item">Aung</li>
+      <li class="content__container__list__item">Nyi</li>
+      <li class="content__container__list__item">Thant</li>
+    </ul>
+  </div>
+</div>
